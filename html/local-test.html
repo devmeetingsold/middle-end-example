@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8">
+    <title>Main template file</title>
+    <link rel="stylesheet" type="text/css" href="../lib-client/css/style.css">
+</head
+<body>
+  <div id="container">
+    <h1>This is title</h1>
+    <p>This is paragraph that came in html</p>
+  </div>
+    
+    
+<script type="text/javascript" src="../lib-client/jquery.js"></script>
+<script type="text/javascript" src="../lib-client/mustache.js"></script>
+<script type="text/javascript" src="../lib-client/flights.js"></script>
+<script type="text/javascript" src="../lib-client/paragraph.js"></script>
+<script type="text/javascript" src="../lib-client/init.js"></script>
+<script type="text/javascript">window.init({"snippets":{"flights":"<ul>\n  {{#flights}}\n    <li>({{id}}) {{from}} &rarr; {{to}} </li>\n  {{/flights}}\n</ul>"},"data":{"flights":[{"id":"1","from":"Poznan","to":"Warsaw"},{"id":"2","from":"Warsaw","to":"Berlin"},{"id":"3","from":"Krakow","to":"Gdynia"}]}})</script>
+</body>
+</html>

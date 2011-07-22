@@ -1,0 +1,9 @@
+body {  background: #1374A4;  font-family: Helvetica, Arial, sans-serif; padding: 0;  margin: 0}
+#container {
+  background: rgba(255,255,255,.9); 
+  box-shadow: 0 0 40px #333;
+  border: solid 1px #111;
+  border-radius: 5px; 
+  margin: 30px auto; padding: 30px;
+  width: 600px;
+}

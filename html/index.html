@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Main template file</title>
+</head>
+<body>
+  <div id="container">
+    <h1>This is title</h1>
+    <p>This is paragraph that came in html</p>
+    <form method="post" action="send">
+      <p><label for="inp-name">Name: </label><input type="text" id="name" name="name" /></p>
+      <p>Last name: <input type="text" name="lastname" /></p>
+      <p>Phone: <input type="text" name="phone" /></p>
+      <p><input type="submit"value="Send" /></p>
+    </form>
+    {{scripts}}
+  </div>
+</body>
+</html>
